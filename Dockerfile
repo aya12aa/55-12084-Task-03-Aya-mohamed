@@ -6,11 +6,11 @@ COPY target/*.jar app.jar
 
 # TODO: Replace with your full name, prefixed with Docker_. Format: Docker_FirstName_LastName
 # Example: Docker_Mohamed_Ayman
-ENV USER_NAME=Docker_FirstName_LastName
+ENV USER_NAME=Docker_Aya_Mohamed
 
 # TODO: Replace with your student ID, prefixed with Docker_. Format: Docker_XX_XXXXX
 # Example: Docker_55_8078
-ENV ID=Docker_XX_XXXXX
+ENV ID=Docker_55_12084
 
 EXPOSE 8080
 
