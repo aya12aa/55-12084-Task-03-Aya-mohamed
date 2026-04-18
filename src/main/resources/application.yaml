@@ -1,9 +1,4 @@
-# TODO: Replace with your full name. Format: FirstName_LastName_Local
-# Example: Mohamed_Ayman_Local
 USER_NAME: Aya_Mohamed_Local
-
-# TODO: Replace with your student ID. Format: XX_XXXXX
-# Example: 55_8078
 ID: 55_12084
 
 spring:
@@ -11,6 +6,9 @@ spring:
     url: jdbc:postgresql://postgres:5432/task03db
     username: postgres
     password: postgres
+    hikari:
+      initializationFailTimeout: 0
+      connectionTimeout: 60000
   jpa:
     hibernate:
       ddl-auto: update
